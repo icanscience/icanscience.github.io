@@ -8,12 +8,12 @@ sitemap:
     changefreq: yearly
 ---
 
-**Rayna M. Harris, Ph.D.**    
-Postdoctoral Scholar  
+**Rebecca M. Calisi Rodríguez, M.S., Ph.D.**    
+Principal Investigator
 University of Davis, California  
 Department of Neurobiology, Physiology & Behavior  
 College of Biological Science  
 1 Shields Avenue  
 Davis, CA 95616-8519  
 
-You can contact Dr. Rayna M. Harris directly by email [rmharris@ucdavis.edu](rmharris@ucdavis.edu).
+You can contact Dr. Rebecca M. Calisi Rodríguez directly by email [rmcalisi@ucdavis.edu](rmcalisi@ucdavis.edu).
