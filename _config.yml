@@ -59,7 +59,7 @@ plugins:
   
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/episdoe/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
