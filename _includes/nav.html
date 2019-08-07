@@ -2,7 +2,7 @@
 
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
   
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Episodes</a></li>
+  <li class="{% if page.url contains '/episode/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Episodes</a></li>
   
     <li class="{% if page.url contains '/contact/' %} active {% endif %}"><a href="{{ "/contact/" | absolute_url }}">Contact</a></li>
 
