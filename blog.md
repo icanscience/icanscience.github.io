@@ -1,5 +1,5 @@
 ---
-layout: epsisode
+layout: blog
 title: I Can Science episodes
 sitemap:
     priority: 1.0
