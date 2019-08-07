@@ -44,15 +44,49 @@ sitemap:
     
 	</header>
 	
+	
+	
 <p>
 	
-
-	Funded by National Geographic, the series pilot centers on five resilient scientists who are revitalizing Puerto Rico with the innovative research, engaging instruction, and community outreach they are doing on the island. Through their inspiring stories, I Can Science shows that becoming a successful scientist is possible, even for those who follow non-linear career paths, come from marginalized communities, or work in places where the obstacles are especially daunting. It also emphasizes the fact that, while scientists may at first seem intimidating, they are often among the most fun and friendly people you’ll ever meet. In this spirit, I Can Science is hosted with humor and humanity by Dr. Rebecca Calisi, an award-winning UC Davis neurobiologist whose own non-traditional career path and desire to help others interested in science drove her to create this refreshing new series.
+Funded by National Geographic, the series pilot centers on five resilient scientists who are revitalizing Puerto Rico with the innovative research, engaging instruction, and community outreach they are doing on the island. Through their inspiring stories, I Can Science shows that becoming a successful scientist is possible, even for those who follow non-linear career paths, come from marginalized communities, or work in places where the obstacles are especially daunting. It also emphasizes the fact that, while scientists may at first seem intimidating, they are often among the most fun and friendly people you’ll ever meet. In this spirit, I Can Science is hosted with humor and humanity by Dr. Rebecca Calisi, an award-winning UC Davis neurobiologist whose own non-traditional career path and desire to help others interested in science drove her to create this refreshing new series.
 
  
 </p>
 
+
+<h2>Watch the trailer</h2>
+
 <iframe width="1024" height="512" src="https://ucdavis.app.box.com/s/3vslpzsto8pb3n6uhwv15jnmyigzf0ap/file/457006287755" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" seamless allowfullscreen></iframe>
+
+
+<h2>Watch each episode</h2>
+
+
+<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:6 %}
+                {% assign mod3 = forloop.index | modulo: 4 %}
+  								<article>
+  									<header>
+  										
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Watch the episode</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+
+                  {% endif %}
+                {% endfor %}
+
+							</section>
+
+
+
+
 
 
 
