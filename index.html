@@ -44,9 +44,77 @@ sitemap:
     
 	</header>
 	
-	   <p> <b>Wild Hope Adventures</b>  uses culturally relevant adventure storytelling to help reignite the passion, pride, and “Wild Hope” that many Puerto Ricans have for their island. With digital videos and books, we are increasing 1) student interest in and knowledge of Puerto Rican wildlife and habitats, 2) their ability to cope positively with natural disasters by becoming agents of change, 3) awareness of those helping to restore ecosystems post Hurricane Maria, 4) positive attitudes towards science and scientists, and 5) interest in pursuing science careers in general, especially by seeing culturally-matched science role models. <br>
-	    <b>I Can Science: Puerto Rico</b> is a digital video series that highlight the amazing diversity of people doing science.  <br>
-   Our <b>children's books</b> showcase adventures around the world to explore different ecosystems to teach children about intersections between science and culture.  </p>
+	   <p> <b>Wild Hope Adventures</b>  uses culturally relevant adventure storytelling to help reignite the passion, pride, and “Wild Hope” that many Puerto Ricans have for their island. With digital videos and books, we are increasing 1) student interest in and knowledge of Puerto Rican wildlife and habitats, 2) their ability to cope positively with natural disasters by becoming agents of change, 3) awareness of those helping to restore ecosystems post Hurricane Maria, 4) positive attitudes towards science and scientists, and 5) interest in pursuing science careers in general, especially by seeing culturally-matched science role models. </p>
+	    
+  
+
+
+<h2><a href="http://icanscience.org/books/">Children's Books</a></h2>
+
+<p> Our <b>children's books</b> showcase adventures around the world to explore different ecosystems to teach children about intersections between science and culture.  </p>
+
+
+<!-- Books -->
+							<section class="posts">
+                {% for post in site.posts limit:6 %}
+                {% if post.categories contains 'books' %}
+                {% assign mod3 = forloop.index | modulo: 4 %}
+  								<article>
+  									<header>
+
+  										<h3><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h3>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Watch the episode</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+
+                  {% endif %}
+                   {% endif %}
+                {% endfor %}
+
+							</section>
+
+
+
+<h2><a href="http://icanscience.org/episode/">I Can Science: Puerto Rico videos</a></h2>
+
+
+<p>I Can Science: Puerto Rico</b> is a digital video series that highlight the amazing diversity of people doing science.  </p>
+
+<!-- Episdoes -->
+
+
+	<section class="posts">
+	{% for post in site.posts %}
+	{% if post.categories contains 'icanscience' %}
+	{% assign mod3 = forloop.index | modulo: 3 %}
+
+	<article>
+
+	<header>
+	<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+	</header>
+							
+	<p>{{ post.excerpt }}</p>
+	
+	<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+	<ul class="actions">
+	<li><a href="{{ post.url | absolute_url }}" class="button">Watch the episode</a></li>
+	</ul>
+
+	</article>
+	
+	{% if mod3 == 0 %}
+	{% endif %}
+	{% endif %}
+	{% endfor %}
+
+	</section>
+
 
     
 

@@ -33,21 +33,23 @@
 
 	<header class="major">
         
-	<p>I Can Science: Puerto Rico</p>
+	<p>Children's Books</p>
 	
 	</header>
 	
 	
 
 	<p>
-I Can Science is a digital video series that highlight the amazing diversity of people doing science. Because if you can see it, you can be it! Funded by National Geographic, the series pilot centers on five resilient scientists who are revitalizing Puerto Rico with the innovative research, engaging instruction, and community outreach they are doing on the island. Through their inspiring stories, I Can Science shows that becoming a successful scientist is possible, even for those who follow non-linear career paths, come from marginalized communities, or work in places where the obstacles are especially daunting. It also emphasizes the fact that, while scientists may at first seem intimidating, they are often among the most fun and friendly people you’ll ever meet. In this spirit, I Can Science is hosted with humor and humanity by Dr. Rebecca Calisi, an award-winning UC Davis neurobiologist whose own non-traditional career path and desire to help others interested in science drove her to create this refreshing new series.
+
+This page will contain children's books written and illustrated by Dr. Rebecca Calisi. 
  </p>
     
+
 
 	<!-- Post -->
 	<section class="posts">
 	{% for post in site.posts %}
-	{% if post.categories contains 'icanscience' %}
+	{% if post.categories contains 'books' %}
 	{% assign mod3 = forloop.index | modulo: 3 %}
 
 	<article>
@@ -60,7 +62,7 @@ I Can Science is a digital video series that highlight the amazing diversity of 
 	
 	<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 	<ul class="actions">
-	<li><a href="{{ post.url | absolute_url }}" class="button">Watch the episode</a></li>
+	<li><a href="{{ post.url | absolute_url }}" class="button">Read the book.</a></li>
 	</ul>
 
 	</article>
@@ -71,6 +73,8 @@ I Can Science is a digital video series that highlight the amazing diversity of 
 	{% endfor %}
 
 	</section>
+
+
 
 
 	<!-- Footer -->
