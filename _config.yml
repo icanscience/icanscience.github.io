@@ -1,7 +1,7 @@
 # Site
-title:              I Can Science
-bio:                'I Can Science is a digital video series that highlight the amazing diversity of people doing science. Because if you can see it, you can be it!'
-description:        "I Can Science is a digital video series that highlight the amazing diversity of people doing science. Because if you can see it, you can be it!"
+title:              Wild Hope Adventures
+bio:                'A Cultural Wildlife Project by the Brains Behavior and Banter Lab'
+description:        "A Cultural Wildlife Project by the Brains Behavior and Banter Lab"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://icanscience.org/" # the base hostname & protocol for your site
