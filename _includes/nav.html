@@ -2,7 +2,9 @@
 
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
   
-  <li class="{% if page.url contains '/episode/' %} active {% endif %}"><a href="{{ "/episode/" | absolute_url }}">Episodes</a></li>
+  <li class="{% if page.url contains '/episode/' %} active {% endif %}"><a href="{{ "/episode/" | absolute_url }}">I Can Science: Puerto Rico</a></li>
+  
+    <li class="{% if page.url contains '/books/' %} active {% endif %}"><a href="{{ "/books/" | absolute_url }}">Children's Books</a></li>
   
     <li class="{% if page.url contains '/contact/' %} active {% endif %}"><a href="{{ "/contact/" | absolute_url }}">Contact</a></li>
 
