@@ -4,7 +4,7 @@ category: espanol
 title:  "Dr Chelsea Harms-Tuohy, Científica Marina"
 date:   2019-02-01
 excerpt: "Sabía desde el principio que esto es lo que quería hacer. Creo que realmente depende de lo que usted valore en su vida. Fue una decisión difícil comenzar una carrera y un trabajo sabiendo que nunca me traería realmente de vuelta a casa."
-image: "/images/chelsea.png"
+image: "/images/paperrockscissors.jpg"
 comments: true
 ---
 
