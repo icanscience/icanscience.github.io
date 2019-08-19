@@ -13,9 +13,9 @@ On September 20, 2017, [Hurricane Maria](https://en.wikipedia.org/wiki/Hurricane
 
 ## Who?
 
-Dr Rebecca Calisi's team included [Dr Feliú-Mójer](https://www.monicafeliu.me/) (award-winning science communicator award-winning filmmaker), [John Mounier](https://strategiccommunications.ucdavis.edu/about/visual/mounier.html) (UC Davis Head of Visual Communications), and [CienciaPR](https://www.cienciapr.org/) (a global community dedicated to supporting Puerto Rican scientists and culturally relevant science education). Together, they have create a visually stunning and uplifting 5-part educational adventure video series to highlight the resilience of female Puerto Rican scientists studying neuroscience, data science, biology, engineering, and marine science in the wake of Hurricane Maria. 
+Dr Rebecca Calisi's team included [Dr Feliú-Mójer](https://www.monicafeliu.me/) (award-winning science communicator award-winning filmmaker), [John Mounier](https://strategiccommunications.ucdavis.edu/about/visual/mounier.html) (UC Davis Head of Visual Communications), and [CienciaPR](https://www.cienciapr.org/) (a global community dedicated to supporting Puerto Rican scientists and culturally relevant science education). 
 
-![](/images/sixscientists.png){:height="100%" width="100%"}
+Together, they created [**I Can Science: Puerto Rico**](http://icanscience.org/episode/), a visually stunning and uplifting 5-part educational adventure video series to highlight the resilience of female Puerto Rican scientists studying neuroscience, data science, biology, engineering, and marine science in the wake of Hurricane Maria. 
 
 
 ## Target Audience
