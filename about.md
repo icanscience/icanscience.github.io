@@ -11,7 +11,7 @@ sitemap:
 
 On September 20, 2017, [Hurricane Maria](https://en.wikipedia.org/wiki/Hurricane_Maria) devastated the island of Puerto Rico. Ecosystems were severely damaged, and Puerto Ricans continue to suffer from lack of sufficient resources and assistance. Dr Rebecca Calisi wanted to created a digital video to shift what has been a depressing environmental narrative to a positive one of action, resilience, and conservation success. 
 
-## Who
+## Who?
 
 Dr Rebecca Calisi's team included [Dr Feliú-Mójer](https://www.monicafeliu.me/) (award-winning science communicator award-winning filmmaker), [John Mounier](https://strategiccommunications.ucdavis.edu/about/visual/mounier.html) (UC Davis Head of Visual Communications), and [CienciaPR](https://www.cienciapr.org/) (a global community dedicated to supporting Puerto Rican scientists and culturally relevant science education). Together, they have create a visually stunning and uplifting 5-part educational adventure video series to highlight the resilience of female Puerto Rican scientists studying neuroscience, data science, biology, engineering, and marine science in the wake of Hurricane Maria. 
 
