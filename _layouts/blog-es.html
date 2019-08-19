@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+
+	<!-- Header -->
+	<header id="header">
+	<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+	</header>
+
+
+	<!-- Nav -->
+	<nav id="nav">
+	{% include nav.html %}
+	</nav>
+
+	<!-- Main -->
+	<div id="main">
+
+	<header class="major">
+        
+	<p>Yo Puedo Ciencia: Puerto Rico</p>
+	
+	</header>
+	
+	
+
+	<p>
+
+Ser científico es la mejor carrera que puedo imaginar. Pero convertirse en científico requirió mucho trabajo duro y su camino puede no ser una línea recta. El mío definitivamente no lo era. <b>I Can Science</b> es un programa que te lleva al mundo como algunos de los mejores científicos de la historia. Escuchará cómo comenzaron y verá las cosas increíbles que pueden hacer. Seamos realistas, podemos ciencia y tú también ciencia. 
+
+Esta serie piloto digital se centra en cinco científicos resistentes que están revitalizando a Puerto Rico con la investigación innovadora, la instrucción atractiva y el alcance comunitario que están haciendo en la isla. A través de sus historias inspiradoras, <b>I Can Science</b> muestra que convertirse en un científico exitoso es posible, incluso para aquellos que siguen carreras profesionales no lineales, provienen de comunidades marginadas o trabajan en lugares donde los obstáculos son especialmente desalentadores. También enfatiza el hecho de que, si bien los científicos pueden parecer al principio intimidantes, a menudo se encuentran entre las personas más divertidas y amigables que jamás haya conocido.
+
+ </p>
+    
+
+	<!-- Post -->
+	<section class="posts">
+	{% for post in site.posts %}
+	{% if post.categories contains 'espanol' %}
+	{% assign mod3 = forloop.index | modulo: 3 %}
+
+	<article>
+
+	<header>
+	<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+	</header>
+							
+	<p>{{ post.excerpt }}</p>
+	
+	<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+	<ul class="actions">
+	<li><a href="{{ post.url | absolute_url }}" class="button">Watch the episode</a></li>
+	</ul>
+
+	</article>
+	
+	{% if mod3 == 0 %}
+	{% endif %}
+	{% endif %}
+	{% endfor %}
+
+	</section>
+
+
+	<!-- Footer -->
+	<footer>
+
+	</footer>
+
+	</div>
+
+	<!-- Footer -->
+	 {% include foot.html %}
+
+
+	</div>
+	
+	<!-- Scripts -->
+	{% include scripts-main.html %}
+    {% include tracking.html %}
+    {% include analytics.html %}
+
+	</body>
+</html>
