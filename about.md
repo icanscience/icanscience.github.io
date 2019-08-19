@@ -9,7 +9,7 @@ sitemap:
 
 ## Why?
 
-On September 20, 2017, [Hurricane Maria](https://en.wikipedia.org/wiki/Hurricane_Maria) devastated the island of Puerto Rico. Ecosystems were severely damaged, and Puerto Ricans continue to suffer from lack of sufficient resources and assistance. Dr Rebecca Calisi wanted to created a digital video to shift what has been a depressing environmental narrative to a positive one of action, resilience, and conservation success. 
+On September 20, 2017, [Hurricane Maria](https://en.wikipedia.org/wiki/Hurricane_Maria) devastated the island of Puerto Rico. Ecosystems were severely damaged, and Puerto Ricans continue to suffer from lack of sufficient resources and assistance. [Dr Rebecca Calisi](http://rebeccacalisi.weebly.com/about.html) wanted to created a digital video to shift what has been a depressing environmental narrative to a positive one of action, resilience, and conservation success. 
 
 ## Who?
 
