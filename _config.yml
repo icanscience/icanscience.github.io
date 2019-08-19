@@ -4,7 +4,7 @@ bio:                'A Cultural Wildlife Project by the Brains Behavior and Bant
 description:        "A Cultural Wildlife Project by the Brains Behavior and Banter Lab"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://icanscience.org/" # the base hostname & protocol for your site
+url: "http://icanscience.org" # the base hostname & protocol for your site
 author:
   twitter: i_can_science
 
