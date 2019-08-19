@@ -44,41 +44,19 @@ sitemap:
     
 	</header>
 	
-	   <p> <b>Wild Hope Adventures</b>  uses culturally relevant adventure storytelling to help reignite the passion, pride, and “Wild Hope” that many Puerto Ricans have for their island. With digital videos and books, we are increasing 1) student interest in and knowledge of Puerto Rican wildlife and habitats, 2) their ability to cope positively with natural disasters by becoming agents of change, 3) awareness of those helping to restore ecosystems post Hurricane Maria, 4) positive attitudes towards science and scientists, and 5) interest in pursuing science careers in general, especially by seeing culturally-matched science role models. <br>
-	    
+	   <p> <b>Wild Hope Adventures</b>  uses culturally relevant adventure storytelling to help reignite the passion, pride, and “Wild Hope” that many Puerto Ricans have for their island. With digital videos and books, we are increasing 1) student interest in and knowledge of Puerto Rican wildlife and habitats, 2) their ability to cope positively with natural disasters by becoming agents of change, 3) awareness of those helping to restore ecosystems post Hurricane Maria, 4) positive attitudes towards science and scientists, and 5) interest in pursuing science careers in general, especially by seeing culturally-matched science role models. 
+	   
+	   <br>
+	   <br>	    
   
-<b>I Can Science Puerto Rico</b> is a visually stunning and uplifting 5-part educational adventure video series to highlight the resilience of female Puerto Rican scientists studying neuroscience, data science, biology, engineering, and marine science in the wake of Hurricane Maria.  </p>
+<b><a href="http://icanscience.org/episode/">I Can Science Puerto Rico</a></b> is a visually stunning and uplifting 5-part educational adventure video series to highlight the resilience of female Puerto Rican scientists studying neuroscience, data science, biology, engineering, and marine science in the wake of Hurricane Maria.  
 
+       <br>
+	   <br>	 
+	   
+Para leer sobre I Can Science en español, haga clic  <b><a href="http://icanscience.org/espanol/">Yo Puedo Ciencia: Puerto Rico</a></b>. 
 
-<h2><a href="http://icanscience.org/episode/">I Can Science: Puerto Rico</a></h2>
-
-
-<!-- Episdoes -->
-
-
-	<section class="posts">
-	{% for post in site.posts %}
-	{% if post.categories contains 'icanscience' %}
-	{% assign mod3 = forloop.index | modulo: 3 %}
-
-	<article>
-
-	
-	<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-
-
-	</article>
-	
-	{% if mod3 == 0 %}
-	{% endif %}
-	{% endif %}
-	{% endfor %}
-
-	</section>
-
-
-    
-
+     </p>
 
 
     <!-- Footer -->
