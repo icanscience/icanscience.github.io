@@ -3,7 +3,7 @@ layout: post
 category: espanol
 title:  "Dr Chelsea Harms-Tuohy, Científica Marina"
 date:   2019-02-01
-excerpt: "Sabía desde el principio que esto es lo que quería hacer. Creo que realmente depende de lo que usted valore en su vida. Fue una decisión difícil comenzar una carrera y un trabajo sabiendo que nunca me traería realmente de vuelta a casa."
+excerpt: "Muchos estudiantes de ciencias piensan que debes permanecer en la academia y convertirte en profesor, pero hay muchas maneras de involucrarte en la investigación y la educación. Cuando la Dra. Chelsea Harms-Tuohy completó su doctorado, comenzó sus propios cursos de campo líderes en negocios en Puerto Rico."
 image: "/images/paperrockscissors.jpg"
 comments: true
 ---

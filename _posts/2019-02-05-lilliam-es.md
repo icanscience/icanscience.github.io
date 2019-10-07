@@ -3,7 +3,7 @@ layout: post
 category: espanol
 title:  "Dr Lilliam Casilla, Microbióloga y Maestra"
 date:   2019-02-03
-excerpt: "Cuando enseñas y ves los ojos de los niños, cómo se iluminan cuando les enseñas algo, eso es nuevo que nunca han visto antes, es espectacular. Tienes la sensación de que, oh wow, esto es genial porque estás transmitiendo conocimientos a nuevos niños y a la nueva generación. Entonces, para mí, me siento extraordinario. Me siento genial."
+excerpt: "La Dra. Lilliam Casilla busca nuevos antibióticos para tratar infecciones bacterianas que se están volviendo imposibles de tratar. Nuevos antibióticos podrían salvar millones de vidas. El Dr. Casilla está haciendo de la microbiología un lugar más acogedor para las mujeres y las minorías en la ciencia porque en este momento necesitamos todas las manos en la cubierta (o en platos de Petri) para garantizar un mañana más saludable."
 image: "/images/lilliam-students.png"
 comments: true
 ---
