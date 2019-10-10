@@ -1,13 +1,13 @@
 <ul class="links">
 
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
-  
-          <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About the project</a></li>
+
   
   <li class="{% if page.url contains '/episode/' %} active {% endif %}"><a href="{{ "/episode/" | absolute_url }}">I Can Science: Puerto Rico</a></li>
   
     <li class="{% if page.url contains '/espanol/' %} active {% endif %}"><a href="{{ "/espanol/" | absolute_url }}">Yo Puedo Ciencia: Puerto Rico</a></li>
   
+            <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About the project</a></li>
   
 
 </ul>
